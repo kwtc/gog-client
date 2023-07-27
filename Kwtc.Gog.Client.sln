@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwtc.Gog.Client", "src\Kwtc.Gog.Client\Kwtc.Gog.Client.csproj", "{BE69E504-F999-4D71-858B-F543D8A6F938}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{073F5B99-FD7C-4183-8463-C812AA50B96E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{58F0F496-B540-4F9C-8A36-5F9542611821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwtc.Gog.Client.Tests", "test\Kwtc.Gog.Client.Tests\Kwtc.Gog.Client.Tests.csproj", "{66A7F3D1-0B44-4247-BF16-8DA97BEBCD6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE69E504-F999-4D71-858B-F543D8A6F938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE69E504-F999-4D71-858B-F543D8A6F938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE69E504-F999-4D71-858B-F543D8A6F938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE69E504-F999-4D71-858B-F543D8A6F938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A7F3D1-0B44-4247-BF16-8DA97BEBCD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A7F3D1-0B44-4247-BF16-8DA97BEBCD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A7F3D1-0B44-4247-BF16-8DA97BEBCD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A7F3D1-0B44-4247-BF16-8DA97BEBCD6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE69E504-F999-4D71-858B-F543D8A6F938} = {073F5B99-FD7C-4183-8463-C812AA50B96E}
+		{66A7F3D1-0B44-4247-BF16-8DA97BEBCD6B} = {58F0F496-B540-4F9C-8A36-5F9542611821}
+	EndGlobalSection
+EndGlobal
